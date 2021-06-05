@@ -1,0 +1,71 @@
+/*===============Propiedades Globales================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    background-color:#e6faff;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+
+/*===================MENU==========================*/
+
+ #menu a, button{
+     font-size: 18px !important;
+     font-weight: 600;
+    
+ }
+
+ #menu a{
+     color:#3f3f3f;
+     
+ }
+
+
+/*=========================CONTACTOS FORMULARIO================================*/
+
+#contenedor-formulario{
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius:5px;
+    
+}
+
+#titulo-formulario {
+    color: #3f3f3f;
+}
+
+
+
+
+/*=========================FOOTER================================*/
+
+footer {
+    background: #1b2a4e;
+    min-height: 100px;;
+}
+footer p{
+    color:#f3f3f3;
+    text-align:center;
+}
+#iconos  i {
+    font-size: 26px;
+    padding: 0 8px;
+    color:#f3f3f3;
+}
+
+
+/*=========================FORMULARIO Y MAPA================================*/
+#mapa2{
+    margin-top:50px;
+    padding-top: 7px;
+    min-height: 0px;
+    background-color: #e6faff;
+    border-radius:0px;
+}
+
+

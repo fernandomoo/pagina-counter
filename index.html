@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <title>Counter.</title>
+  </head>
+  <body>
+  <!--========================================================== -->
+                        <!-- ENCABEZADO -->
+  <!--========================================================== -->
+    
+
+    <nav  class="navbar navbar-expand-lg navbar-light p-3"  id="menu">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+              <span class="fs-5 text-primary fw-bold">Counter</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Inicio</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#equipo">Quienes somos</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./paginas/ingresos.html">Transacciones</a>
+              </li>
+
+                <li class="nav-item">
+                <a class="nav-link" href="./paginas/registro.html">Iniciar sesion</a>
+              </li>
+
+               <li class="nav-item">
+                <a class="nav-link" href="./paginas/perfiles.html">Perfiles</a>
+              </li>
+              
+                <li class="nav-item">
+                <a class="nav-link" href="./paginas/contacto.html">Contactanos</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link" href="./paginas/imagenes.html">galeria</a>
+              </li>
+
+               <li class="nav-item">
+                <a class="nav-link" href="./paginas/servicios.html">servicios</a>
+              </li>
+
+            </ul>
+           
+          </div>
+
+        </div>
+      </nav>
+
+    <!--========================================================== -->
+                        <!-- SLIDER DE IMAGENES-->
+    <!--========================================================== -->
+   
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="./img/contabilidad7.jpg" class="d-block w-100" alt="">
+          </div>
+          
+ 
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./img/slide2.jpg" class="d-block w-100" alt="...">
+          </div>
+ 
+
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./img/contabilidad6.jpg" class="d-block w-100" alt="...">
+          </div>
+ 
+ 
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel"  data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel"  data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>    
+    
+        
+     
+    <!--========================================================== -->
+                        <!-- INTRODUCCION DE SERVICIOS-->
+    <!--========================================================== -->
+
+
+    <section class="d-flex flex-column justify-content-center align-items-center pt-5  text-center w-50 m-auto" id="intro">
+    <h1 class="p-3 fs-2 border-top border-3">Bienvenido al sistema </h1>
+    <h1 onmouseover="style.color='blue'" onmouseout="style.color='black'">COUNTER</h1>
+     <p class="p-3  fs-4">
+         <span class="text-primary">Counter</span> es un sistema contable para registrar los movimientos como registro de ingresos y egresos de la empresa pozos economicos del sureste        
+     </p>   
+    </section>
+
+   <!--========================================================== -->
+                        <!-- TIPOS DE SERVICIOS-->
+    <!--========================================================== -->
+
+
+<section class="w-100">
+    <div class="row w-75 mx-auto" id="servicios-fila-1">       
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+            <img src="./img/desarrollo.png" alt="desarrollo"   width="180" height="160">
+
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1">Control</h3>
+                <p class="px-4">Gestión y control de usuarios</p>
+            </div>
+
+        </div>
+        
+
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+            <img src="./img/concepto.png" alt="concepto" width="180" height="160">
+
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap">Informacion confidencial</h3>
+                <p class="px-4">Protección de los datos del sistema</p>
+            </div>
+        </div>   
+    </div>
+    
+    <div class="row w-75 mx-auto mb-5" id="servicios-fila-2">       
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+            <img src="./img/comunicaciones.png" alt="comunicaciones" width="180" height="160">
+
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1">Ingresos</h3>
+                <p class="px-4">Registro de los ingresos de la empresa</p>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+            <img src="./img/seo.png" alt="seo" width="180" height="160" >
+
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1">Egresos</h3>
+                <p class="px-4">Registro de los ingresos de la empresa</p>
+            </div>
+        </div>   
+    </div>
+</section>
+
+<!--========================================================== -->
+                        <!-- SECCION ACERCA DE NOSOTROS-->
+<!--========================================================== -->
+
+<section>
+    <div class="container w-50 m-auto text-center" id="equipo">
+        <h1 class="mb-5 fs-2">Equipo pequeño con <span class="text-primary">resultados Grandes</span>.</h1>
+        <p class="fs-4 ">"Somos una empresa comprometida con la calidad de nuestros proyectos, gracias a la confianza de cada uno nuestros clientes que nos respaldan ingenieros, arquitectos, constructoras y publico en general. Dedicados a la perforación de pozos de abastecimiento para riego, piscina, casa-habitación; tierra física, desazolves, venta e instalación de bombas sumergibles de las mejores marcas. Le reiteramos nuestro compromiso con nuestros clientes, y esperamos poder servirle con la calidad y confianza que usted se merece."</p>
+    </div>
+
+   
+    
+    <section id="misionvision" class="divider">
+      <div class="container">
+          <div class="content-center">
+              <h2>OBJETIVO GENERAL <b>COUNTER</b></h2>
+              <p>El objetivo general del proyecto es crear una página web en el que estará desarrollado un sistema contable para la empresa pozos económicos del sureste que se encuentra en la ciudad de Valladolid, este sistema permite a la empresa almacenar y organizar la información generada a partir de cada movimiento que se realice, poniendo énfasis en los datos referente a los ingresos y los gastos originados.          </div>
+                  <div class="row">
+                  <div class="col-md-6">
+                  <div class="misionvision-container">
+                  <div class="plans plan-light">
+                      <center><h2>MISION </h2></center>
+    
+                      <ul class="mt-3">
+                          <li>Ofrecer los mejores servicios en perforación de pozos y logística de campamentos, contando con recursos tecnológicos y profesionales de alto desempeño para la gestión de sus portafolios, programas y proyectos en construcciones, ingenieria y consultorías, buscando la mejora continua de sus servicios en calidad, eficiencia, medio ambiente, salud ocupacional y responsabilidad social a través de la implementación de sistemas integrados de gestión.
+                      </ul>
+                          <a href="#" class="btn btn-primary full-width mt-4">Mas informacion</a>
+                  </div>
+                  </div>
+                  </div>
+    
+                  <div class="col-md-6">
+                  <div class="misionvision-container">
+                  <div class="plans plan-light">
+                           <center><h2>VISION</h2></center>
+                          <ul class="mt-3">
+    
+                              <li>Ser una empresa líder en perforación de pozos y logística, así como ser reconocidos por sus eficientes servicios que brinda en el área de construcciones, ingeniería y consultorías en función de la demanda dinámica y expectativas de sus clientes.
+    
+                          </ul>
+                          <a href="#" class="btn btn-primary full-width mt-4">Mas informacion</a>
+                  </div>
+                  </div>
+                  </div>
+          </div>
+          </div>
+    
+    
+    </section>
+
+
+
+<!--========================================================== -->
+                        <!--FOOTER-->
+<!--========================================================== -->
+
+
+
+
+<footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
+  <p class="fs-5 px-3  pt-3">Pozos Economicos del sureste &copy;</p>
+  <div id="iconos" >
+      <a href="#"><i class="bi bi-facebook"></i></a>
+      <a href="#"><i class="bi bi-twitter"></i></a>
+      <a href="#"><i class="bi bi-instagram"></i></a>  
+  </div>
+</footer>
+
+
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> 
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
+
+
